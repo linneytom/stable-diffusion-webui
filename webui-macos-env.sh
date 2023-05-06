@@ -10,7 +10,7 @@ then
 fi
 
 export install_dir="$HOME"
-export COMMANDLINE_ARGS="--skip-torch-cuda-test --skip-version-check --upcast-sampling --no-half --autolaunch --use-cpu interrogate --xformers"
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --skip-version-check --upcast-sampling --autolaunch --use-cpu interrogate --opt-sub-quad-attention"
 export TORCH_COMMAND="pip install torch torchvision"
 export K_DIFFUSION_REPO="https://github.com/brkirch/k-diffusion.git"
 export K_DIFFUSION_COMMIT_HASH="51c9778f269cedb55a4d88c79c0246d35bdadb71"
